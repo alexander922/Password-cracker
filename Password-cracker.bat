@@ -5,6 +5,9 @@ color a
 set /p ip="User ip address: "
 set /p user="UserName: "
 set /p passlist="password list (txt name): "
+echo.
+echo click to continue
+pause
 
 set /a count=0
 for /f %%a in (%passlist%) do (
